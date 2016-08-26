@@ -15,6 +15,8 @@
 		AAB352C71D7019CA0087606B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAB352C51D7019CA0087606B /* LaunchScreen.storyboard */; };
 		AAB352D21D7019CA0087606B /* JBDropDownTableViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB352D11D7019CA0087606B /* JBDropDownTableViewControllerTests.m */; };
 		AAB352DD1D7019CA0087606B /* JBDropDownTableViewControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB352DC1D7019CA0087606B /* JBDropDownTableViewControllerUITests.m */; };
+		AAB352EC1D701A0A0087606B /* JBDropDownTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB352EB1D701A0A0087606B /* JBDropDownTableViewController.m */; };
+		AAB352EF1D70284D0087606B /* SDAttachCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB352ED1D70284D0087606B /* SDAttachCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		AAB352D81D7019CA0087606B /* JBDropDownTableViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JBDropDownTableViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAB352DC1D7019CA0087606B /* JBDropDownTableViewControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JBDropDownTableViewControllerUITests.m; sourceTree = "<group>"; };
 		AAB352DE1D7019CA0087606B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAB352EA1D701A0A0087606B /* JBDropDownTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBDropDownTableViewController.h; sourceTree = "<group>"; };
+		AAB352EB1D701A0A0087606B /* JBDropDownTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBDropDownTableViewController.m; sourceTree = "<group>"; };
+		AAB352ED1D70284D0087606B /* SDAttachCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDAttachCell.m; sourceTree = "<group>"; };
+		AAB352EE1D70284D0087606B /* SDAttachCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDAttachCell.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,10 @@
 			children = (
 				AAB352BA1D7019CA0087606B /* AppDelegate.h */,
 				AAB352BB1D7019CA0087606B /* AppDelegate.m */,
+				AAB352EA1D701A0A0087606B /* JBDropDownTableViewController.h */,
+				AAB352EB1D701A0A0087606B /* JBDropDownTableViewController.m */,
+				AAB352ED1D70284D0087606B /* SDAttachCell.m */,
+				AAB352EE1D70284D0087606B /* SDAttachCell.h */,
 				AAB352BD1D7019CA0087606B /* ViewController.h */,
 				AAB352BE1D7019CA0087606B /* ViewController.m */,
 				AAB352C01D7019CA0087606B /* Main.storyboard */,
@@ -272,6 +282,8 @@
 			files = (
 				AAB352BF1D7019CA0087606B /* ViewController.m in Sources */,
 				AAB352BC1D7019CA0087606B /* AppDelegate.m in Sources */,
+				AAB352EC1D701A0A0087606B /* JBDropDownTableViewController.m in Sources */,
+				AAB352EF1D70284D0087606B /* SDAttachCell.m in Sources */,
 				AAB352B91D7019CA0087606B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

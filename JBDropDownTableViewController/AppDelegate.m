@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "JBDropDownTableViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +16,10 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:[JBDropDownTableViewController new]];
+    self.window.rootViewController = nav;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
